@@ -24,3 +24,31 @@ Free School is a realistic school simulation game where players balance their gr
    ```bash
    git clone https://github.com/AndileZikhali-debug/Free-School.git
    
+How to Use:
+
+1. Attach these scripts to appropriate objects in your Unity scene:
+
+PlayerMovement: Attach to the player object.
+
+GradeManager, BehaviorManager, ExtracurricularManager, GameManager: Attach to a central "Game Manager" object.
+
+InteractionManager: Attach to the player to handle NPC interactions.
+
+NPC: Attach to NPC game objects.
+
+
+
+2. Create UI buttons for testing (e.g., "Attend Class," "Skip Class," "End Day") and link them to the UIManager script functions.
+
+
+3. Use Unity's Inspector to configure initial values for grades, behavior, and clubs.
+
+This code sets up the core mechanics of the game. Next steps I'll expand it by adding features like:
+
+Dialog systems for NPCs.
+
+Visual feedback for behavior and grades.
+
+Storylines based on player choices.
+
+More detailed extracurricular activities or mini-games.
